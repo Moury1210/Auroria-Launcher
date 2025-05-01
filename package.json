@@ -1,12 +1,12 @@
 {
     "name": "Auroria-Launcher",
     "preductname": "AUroia Launcher",
-    "version": "2.0.7",
+    "version": "1.0.0",
     "description": "Launcher Mincraft pour le serveur Auroria",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Moury1711, Inc.",
-        "email": "contact@luuxis.fr",
+        "name": "Moury1711, Inc.",
+        "email": "moury1210@gmail.com",
         "url": "https://github.com/luuxis"
     },
     "url": "http://Auroria.luuxis.fr",
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/Moury1210/Aurora/main/Logo.jpg"
     },
     "license": "CCANC",
     "nodemonConfig": {
